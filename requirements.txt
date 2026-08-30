@@ -1,0 +1,7 @@
+eth-ape>=0.8.0
+ape-solidity>=0.8.0
+python-dotenv>=1.0.0
+
+# After pip install, also run:
+#   ape plugins install solidity
+#   ape accounts import voting_deployer   (imports/creates a testnet wallet)

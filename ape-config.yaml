@@ -1,0 +1,15 @@
+name: voting-dapp
+
+dependencies:
+  - name: openzeppelin
+    github: OpenZeppelin/openzeppelin-contracts
+    version: 5.0.0
+
+solidity:
+  import_remapping:
+    - "@openzeppelin/contracts=openzeppelin/5.0.0"
+
+geth:
+  ethereum:
+    sepolia:
+      uri: ${SEPOLIA_RPC_URL}
